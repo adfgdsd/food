@@ -835,3 +835,18 @@ html
     .about .min .img img{width: 115%;}
 .Home .min .nav ul li a{font-size: 1.6rem;}
 }
+
+
+
+.preloder
+{
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    background: url("gift.gif") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+}
