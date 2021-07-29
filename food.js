@@ -31,3 +31,10 @@ let top=document.querySelector('#top');
         top.style.display="none";
     }
 })
+
+
+
+let loder=document.querySelector('.preloder');
+window.addEventListener("load",()=>{
+    loder.style.display="none";
+})
